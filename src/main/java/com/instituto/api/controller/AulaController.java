@@ -31,3 +31,4 @@ public class AulaController {
         return aulaService.liberarAsiento(fila, columna);
     }
 }
+// v2

@@ -18,10 +18,9 @@ El servidor inicia en: `http://localhost:8080`
 
 ## Endpoints
 
-### Parte 1: Calificaciones (Arreglo Unidimensional)
+### Parte 1: Calificaciones 
 
 | Método | Endpoint | Descripción |
-|--------|----------|-------------|
 | GET | `/notas/agregar?valor=85` | Agregar una calificación |
 | GET | `/notas` | Mostrar calificaciones aprobadas (>=60) |
 | GET | `/notas/todas` | Mostrar todas las calificaciones |
@@ -29,10 +28,9 @@ El servidor inicia en: `http://localhost:8080`
 | GET | `/notas/max` | Nota máxima |
 | GET | `/notas/min` | Nota mínima |
 
-### Parte 2: Aula (Arreglo Bidimensional 5x15)
+### Parte 2: Aula
 
 | Método | Endpoint | Descripción |
-|--------|----------|-------------|
 | GET | `/aula` | Mostrar matriz del aula |
 | GET | `/aula/ocupados` | Cantidad de asientos ocupados |
 | GET | `/aula/ocupar?fila=1&columna=2` | Ocupar un asiento |
@@ -43,7 +41,6 @@ El servidor inicia en: `http://localhost:8080`
 ### Parte 3: Estudiantes (Lista Enlazada)
 
 | Método | Endpoint | Descripción |
-|--------|----------|-------------|
 | GET | `/estudiantes/agregar?nombre=Ana&puntaje=95&id=1` | Agregar estudiante |
 | GET | `/estudiantes` | Mostrar todos los estudiantes |
 | GET | `/estudiantes/ordenados` | Aprobados ordenados de mayor a menor |

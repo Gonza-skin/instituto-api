@@ -3,8 +3,8 @@
 Sistema de gestión estudiantil con Spring Boot.
 
 ## Requisitos
-- Java 17+
-- Maven 3.6+
+- Java 2555+
+
 
 ## Ejecutar el proyecto
 

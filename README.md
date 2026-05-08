@@ -1,4 +1,4 @@
-# Instituto API - EDA-111
+# Instituto API - EDA
 
 Sistema de gestión estudiantil con Spring Boot.
 
